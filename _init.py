@@ -29,9 +29,6 @@ def CreatePath(resName):
         f.write("-- This is the start of the shared script.")
         f.close()
 
-
-
-
 def RandomlyGetSomeThingFromAFile():
     try:
         os.system("clear || cls")
